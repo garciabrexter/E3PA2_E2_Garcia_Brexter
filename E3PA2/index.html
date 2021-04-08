@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul class="tabs">
+        <li class="tab is-active">
+          <a data-switcher data-tab="1">About Me</a>
+        </li>
+        <li class="tab">
+          <a data-switcher data-tab="2">Education</a>
+        </li>
+        <li class="tab">
+          <a data-switcher data-tab="3">My Skills</a>
+        </li>
+        <li class="tab">
+          <a data-switcher data-tab="4">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <img id="avatar" src="/profile.jpg" />
+
+      <h1 id="name">Brexter L. Garcia</h1>
+      <h2>Web Designer</h2>
+
+      <input  type=button onClick="
+      parent.location='https://www.linkedin.com/in/brexter-garcia-4078b6209//'" 
+      value='Check out more'>
+    </div>
+    <main>
+      <section class="pages">
+        <div class="page is-active" data-page="1">
+          <h1 id="about-page">About Me</h1>
+          <p id="quotes">
+           I am currently learning Web Development and I want to be a <br>Front-end Developer.
+          </p>
+        </div>
+
+        <div class="page" data-page="2">
+          <h1 id="educ-page">Education</h1>
+          <h2 id="degree">Bachelor of Science in Information Technology</h2>
+        </div>
+
+        <div class="page" data-page="3">
+          <h1 id="skill-page">Skills</h1>
+          <h2 id="skills">HTML, CSS and Javascript</h2>
+        </div>
+
+        <div class="page" data-page="4">
+          <h1 id="contact-page">Contact</h1>
+          <img id="numero" src="/phone.png" />
+          <h2 id="number">
+           </i>09563621797
+          </h2>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
